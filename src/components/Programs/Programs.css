@@ -40,3 +40,15 @@
     font-size: 0.9rem;
     line-height: 25px;
 }
+.join-now {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now > img {
+    width: 1rem;
+}
+.category:hover {
+    background:var(--planCard);
+    cursor: pointer;
+}
