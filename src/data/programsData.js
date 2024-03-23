@@ -38,7 +38,7 @@ export const programsData = [
     ,
     heading: "Fat Burning",
     details:
-      "This program is suitable for you who wants to get rid of your fat and lose their weight.",
+      "This program is suitable for those who want to get rid of their fat and lose weight.",
   },
   {
     image: <svg width="20" height="16" viewBox="0 0 20 16"  xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ export const programsData = [
     ,
     heading: "Health Fitness",
     details:
-      "This programs is designed for those who exercises only for their body fitness not body building.",
+      "This program is designed for those who exercise only for their body fitness and not body building.",
   },
 ];
 
