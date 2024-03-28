@@ -5,7 +5,7 @@ import whiteTick from '../../assets/whiteTick.png'
 
 const Plans = () => {
   return (
-   <div className="plans-container">
+   <div className="plans-container" id='plans'>
         <div className="blur plans-blur-1"></div>
         <div className="blur plans-blur-2"></div>
         <div className="programs-header">
@@ -31,7 +31,7 @@ const Plans = () => {
                     </div>
 
                     <div>
-                        <span>See more benefits -></span>
+                        <span>See more benefits -&gt;</span>
                     </div>
                     <button className="btn">Join now</button>
                 </div>

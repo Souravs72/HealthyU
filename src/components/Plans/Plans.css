@@ -84,3 +84,18 @@
     top: 10rem;
     right: 0rem;
 }
+
+@media screen and (max-width: 768px) { 
+    .plans {
+        flex-direction: column
+    }
+    .programs-header {
+        flex-direction: column;
+    }
+    .plan {
+        width: 14rem;
+    }
+    .plans >:nth-child(2) {
+        transform: none;
+    }
+}
