@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Hero from './components/Hero/Hero';
 import Join from './components/Join/Join.jsx';
 import Plans from './components/Plans/Plans.jsx';
@@ -9,6 +10,10 @@ import Footer from './components/Footer/Footer.jsx'
 
 
 function App() {
+  React.useEffect(() => {
+    document.title = "HealthyU";
+  }, []);
+
   return (
     <div className="App">
           <Hero/>
