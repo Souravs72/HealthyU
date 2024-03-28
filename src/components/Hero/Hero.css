@@ -99,6 +99,7 @@
 .heart-rate {
     display: flex;
     flex-direction: column;
+    color: white;
     gap: 1rem;
     background-color: var(--darkGrey);
     width: fit-content;
