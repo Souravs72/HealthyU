@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 import './Header.css';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo-no-background.png';
 import Bars from '../../assets/bars.png';
 import { Link } from 'react-scroll';
 
 const Header = () => {
 
   const mobile = window.innerWidth <= 768 ? true : false;
-  const [mmenuOpened, setMenuOpened] = useState(false);
+  const [menuOpened, setMenuOpened] = useState(false);
 
 
   return (
 
     <div className="header">
-      <img src={Logo} className="logo" alt="" />
-      {(mmenuOpened === false && mobile === true) ? (
+      <img src={Logo} className="logo brightness" alt="" />
+      {(menuOpened === false && mobile === true) ? (
         <div
           style={{
             backgroundColor: 'var(--appColor)',
